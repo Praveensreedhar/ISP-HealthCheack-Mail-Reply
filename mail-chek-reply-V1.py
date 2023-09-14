@@ -115,8 +115,8 @@ if email_ids[0]:
                     print(reply_message)
                     smtp_server = "smtp.gmail.com"
                     smtp_port = 587
-                    smtp_username = "praveensreedha@gmail.com"
-                    smtp_password = "uwluatmjroofdvpc"
+                    smtp_username = "xyz@gmail.com"
+                    smtp_password = "passwd"
 
                     with smtplib.SMTP(smtp_server, smtp_port) as server:
                         server.starttls()
