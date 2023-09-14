@@ -6,8 +6,8 @@ from netmiko import ConnectHandler
 from email.mime.text import MIMEText
 
 # Your email login credentials
-email_address = "praveensreedha@gmail.com"
-password = "uwluatmjroofdvpc"
+email_address = "xyz@gmail.com"
+password = "passwd"
 
 # Connect to your email server (e.g., Gmail)
 mail = imaplib.IMAP4_SSL("imap.gmail.com")
