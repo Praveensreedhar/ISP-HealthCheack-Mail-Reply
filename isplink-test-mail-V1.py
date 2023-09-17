@@ -10,7 +10,7 @@ import smtplib
 from netmiko import ConnectHandler
 from email.mime.text import MIMEText
 
-#os.chdi("C:\\users\\u26928\\Desktop\\SNMP-FLUS-PY_GRA")
+#os.chdi("C:\\users\\user\\Desktop\\SNMP-FLUS-PY_GRA")
 os.chdir("/AUTOMATION/LINK-TEST/")
 with open('devicestest.json') as dev_file:
 	devices = json.load(dev_file)
