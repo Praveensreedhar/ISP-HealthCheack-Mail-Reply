@@ -1,0 +1,9 @@
+test@SRX-345-FW> show snmp mib walk jnxRpmResSumPercentLost | display xml
+
+
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/21.2R0/junos">
+    <snmp-object-information xmlns="http://xml.juniper.net/junos/21.2R0/junos-snmp">
+        <snmp-object>
+            <name>jnxRpmResSumPercentLost.5.82.80.77.45.50.3.82.80.77.1</name>
+            </object-value>
+            <oid>1.3.6.1.4.1.2636.3.50.1.2.1.4.5.82.80.77.45.50.3.82.80.77.1</oid>
